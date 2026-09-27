@@ -1,0 +1,7 @@
+{
+  "landingPage": "/",
+  "steps": [
+    { "step": "activatePlugin", "pluginPath": "price-scale-slider/price-scale-slider.php" },
+    { "step": "runPHP", "code": "<?php require '/wordpress/wp-load.php'; $id = wp_insert_post(array('post_title' => 'Pricing', 'post_content' => '<!-- wp:paragraph --><p>Simple pricing that scales with your team.</p><!-- /wp:paragraph --><!-- wp:shortcode -->[price_scale]<!-- /wp:shortcode -->', 'post_status' => 'publish', 'post_type' => 'page')); update_option('show_on_front', 'page'); update_option('page_on_front', $id);" }
+  ]
+}

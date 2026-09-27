@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Price Scale Slider demo</title>
+<link rel="stylesheet" href="pss.css">
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #1f2a37; background: #fff; margin: 0; padding: 48px 16px; line-height: 1.5; }
+  header { max-width: 960px; margin: 0 auto 32px; }
+  header p { color: #5b6675; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Price Scale Slider</h1>
+  <p>Live demo of the WordPress plugin: drag the slider and switch currency. In WordPress every value here (range, plans, volume tiers, currencies, colours) is edited under Settings &gt; Price Scale, and the widget is placed with the <code>[price_scale]</code> shortcode or a block.</p>
+</header>
+<div class="pss" data-pss-config="{&quot;title&quot;: &quot;Choose your team size&quot;, &quot;unitLabel&quot;: &quot;users&quot;, &quot;min&quot;: 1, &quot;max&quot;: 200, &quot;step&quot;: 1, &quot;value&quot;: 25, &quot;period&quot;: &quot;per month&quot;, &quot;plans&quot;: [{&quot;name&quot;: &quot;Standard&quot;, &quot;base&quot;: 0, &quot;tiers&quot;: [{&quot;from&quot;: 1, &quot;price&quot;: 12}, {&quot;from&quot;: 21, &quot;price&quot;: 10}, {&quot;from&quot;: 51, &quot;price&quot;: 8}, {&quot;from&quot;: 101, &quot;price&quot;: 6}], &quot;features&quot;: [&quot;Core features&quot;, &quot;Email support&quot;], &quot;ctaText&quot;: &quot;Get Standard&quot;, &quot;ctaUrl&quot;: &quot;#&quot;}, {&quot;name&quot;: &quot;Pro&quot;, &quot;base&quot;: 49, &quot;tiers&quot;: [{&quot;from&quot;: 1, &quot;price&quot;: 18}, {&quot;from&quot;: 21, &quot;price&quot;: 15}, {&quot;from&quot;: 51, &quot;price&quot;: 12}, {&quot;from&quot;: 101, &quot;price&quot;: 9}], &quot;features&quot;: [&quot;Everything in Standard&quot;, &quot;Priority support&quot;, &quot;Advanced reports&quot;], &quot;ctaText&quot;: &quot;Get Pro&quot;, &quot;ctaUrl&quot;: &quot;#&quot;}], &quot;currencies&quot;: [{&quot;code&quot;: &quot;EUR&quot;, &quot;symbol&quot;: &quot;\u20ac&quot;, &quot;rate&quot;: 1}, {&quot;code&quot;: &quot;DKK&quot;, &quot;symbol&quot;: &quot;kr.&quot;, &quot;rate&quot;: 7.46}, {&quot;code&quot;: &quot;USD&quot;, &quot;symbol&quot;: &quot;$&quot;, &quot;rate&quot;: 1.08}, {&quot;code&quot;: &quot;GBP&quot;, &quot;symbol&quot;: &quot;\u00a3&quot;, &quot;rate&quot;: 0.85}]}"></div>
+<script src="pss.js"></script>
+</body>
+</html>
